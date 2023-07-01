@@ -26,7 +26,7 @@ first = pay or parpay
 #print(first)
 
 #international
-inter = is_international and have_passport and afraid_to_fly
+inter = is_international and have_passport and not afraid_to_fly
 notinter = not is_international and (have_a_car or not afraid_to_fly)
 second = inter or notinter
 #print(second)
